@@ -9,22 +9,22 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 By the end of the course, you will understand the basics of computer science and C++ programming language and you will be qualified for the more advanced programming courses like Data Structures and Algorithms.
 
 ## Syllabus:
-- ### Introduction
+- #### Introduction
 
-- Conditions
+- #### Conditions
 
-- Loops
+- #### Loops
 
-- Arrays
+- #### Arrays
 
-- Strings
+- #### Strings
 
-- Functions & Built-in Functions
+- #### Functions & Built-in Functions
 
-- Complexity Analysis
+- #### Complexity Analysis
 
-- STLs 
+- #### STLs 
 
-- Dynamic Memory
+- #### Dynamic Memory
 
-- Recursion 
+- #### Recursion 

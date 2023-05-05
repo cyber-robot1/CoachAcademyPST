@@ -14,6 +14,6 @@ int main()
 	int N, W;
 	cin >> N >> W;
 	cout << N / W;
-  
-  return 0;
+
+    return 0;
 }

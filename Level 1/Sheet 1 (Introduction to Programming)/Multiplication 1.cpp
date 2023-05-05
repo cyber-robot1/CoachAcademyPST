@@ -12,8 +12,8 @@ int main()
 {
 	 
     int A, B;
-	  cin >> A >> B;
-	  cout << A * B << endl;
+    cin >> A >> B;
+    cout << A * B << endl;
   
     return 0;
 }

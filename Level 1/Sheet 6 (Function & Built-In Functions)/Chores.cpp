@@ -5,7 +5,6 @@ Problem link: https://codeforces.com/problemset/problem/837/A
 Date: 28/7/2023
 */
 
-
 #include <iostream>
 using namespace std;
  
@@ -33,7 +32,6 @@ int main()
 	}
 	
 	cout << sum;
- 
  
 	return 0;
 }

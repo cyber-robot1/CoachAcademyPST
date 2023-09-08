@@ -42,7 +42,6 @@ int main()
 		steps.push_back(Steps);
 		while (Steps--)
 			d.pop_front();
-			
 		Steps = 0;
 	}
 	stairways++;

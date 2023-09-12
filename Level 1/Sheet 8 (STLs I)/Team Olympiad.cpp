@@ -5,7 +5,6 @@ Problem link: https://codeforces.com/problemset/problem/490/A
 Date: 27/2/2023
 */
 
-
 #include <iostream>
 using namespace std;
  

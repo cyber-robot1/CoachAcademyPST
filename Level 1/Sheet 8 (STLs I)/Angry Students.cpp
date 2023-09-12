@@ -21,44 +21,22 @@ int main()
 		int c = 0;
 		while (true)
 		{
-			bool flag = false, tmp = false;
+			bool tmp = false;
 			for (int i = 0; i < n; i++)
 			{
-				if (i == n - 1)
-					break;
-				else
+				if (arr[i] == 'A' && arr[i + 1] == 'P')
 				{
-					if (flag)
-					{
-						flag = false;
-						continue;
-					}
-					else
-					{
-						if (arr[i] == 'A')
-						{
-							if (arr[i + 1] == 'P')
-							{
-								arr[i + 1] = 'A';
-								flag = true;
-								tmp = true; 
-							}
-						}
-					}
+					arr[i + 1] = 'A';
+					tmp = true;    
+					i++;
 				}
 			}
- 
-			if (tmp)
-			{
-				c++;
-				continue;
-			}
-			else
+			if (!tmp)
 				break;
+			c++;
 		}
 		cout << c << endl;
 	}
  
 	return 0;
 }
-

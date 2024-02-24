@@ -41,19 +41,13 @@ string twoStrings(string str1, string str2) {
     vector<bool> v1(26), v2(26);
     alpha(S1, v1);
     alpha(S2, v2);
-    bool result = false;
     for (int i = 0; i < v1.size(); i++)
     {
-        if (v1[i] == 1 && v2[i] == 1)
-        {
-            result = true;
-            break;
-        }
+        bool isEqual = (v1[i] == 1 && v2[i] == 1);
+        if (isEqual)
+            return "YES";
     }
-    if (result)
-        return "YES";
-    else
-        return "NO";
+    return "NO";
 }
 int main()
 {

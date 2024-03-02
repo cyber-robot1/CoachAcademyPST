@@ -38,7 +38,6 @@ int main()
         {
             while (s.find(d.front()) != s.end())
                 d.pop_front();
- 
             cout << d.front() << " ";
             s.insert(d.front());
             d.pop_front();
@@ -52,7 +51,6 @@ int main()
                 if (mp.begin()->second.empty())
                     mp.erase(mp.begin());
             }
- 
             cout << mp.begin()->second.front() << " ";
             s.insert(mp.begin()->second.front());
             mp.begin()->second.pop_front();
@@ -63,4 +61,3 @@ int main()
     
     return 0;
 }
-
